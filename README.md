@@ -10,5 +10,7 @@ Bu proje, kullanıcının kiap araması yapmasına, aradığı kitapları okuma 
 
 ![Film proje resim](src/img/kitap.png)
 
+[proje önizleme linki](https://meinakitap.netlify.app/kitap-ekle)
+
 
 

@@ -1,0 +1,15 @@
+.reading{
+    padding: 16px 0;
+    margin-top: 47px;
+}
+.reading h1{
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    text-align: center;
+    width: 100vw;
+}
+.readingbook-wrapper{
+    margin-top: 20px;
+    margin-left: 80px;
+}

@@ -1,0 +1,26 @@
+header {
+  background-color: black;
+  padding: 12px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header h1 {
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links a {
+  color: white;
+}
+.links i {
+  margin: 0 7px;
+}
+.links a:hover {
+  color: #ccd1d1;
+}

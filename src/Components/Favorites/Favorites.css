@@ -1,0 +1,37 @@
+.favori-book-control{
+    padding: 16px 0;
+    margin-top: 47px;
+}
+.favori-book-control h1{
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    text-align: center;
+    width: 100vw;
+}
+.favori-book-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.no-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    color: gray;
+}
+.fav-no{
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 7px 0;
+}

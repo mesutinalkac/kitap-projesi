@@ -1,0 +1,31 @@
+.main-container {
+  padding: 16px 0;
+}
+.main-walpper {
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/463/689/desktop-wallpaper-3840x2160-books-library-shelves-lighting-u-16-9-backgrounds-books.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+}
+.content {
+  width: 100%;
+  background-color: red;
+}
+.content h1 {
+  position: absolute;
+  margin-top: 250px;
+  font-size: 50px;
+  color: white;
+  
+  text-align: center;
+  font-weight: bold;
+ 
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+}
+.main-walpper {
+}

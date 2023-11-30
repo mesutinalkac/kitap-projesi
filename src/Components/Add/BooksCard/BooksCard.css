@@ -1,0 +1,59 @@
+.notfound {
+  width: 150px;
+  height: 195px;
+  background-color: black;
+}
+.books-card {
+  margin: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f3f4;
+
+  width: 600px;
+}
+.books-wrapper {
+  display: flex;
+}
+
+img {
+  height: 195px;
+  border-top-left-radius: 7px;
+  width: 150px;
+}
+.books-info {
+  margin: 10px 13px;
+  color: black;
+  font-size: 18px;
+  width: 300px;
+  border-right: 1px solid black;
+}
+.books-info p {
+  margin: 10px;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-fovori,
+.btn-read {
+  padding: 10px 0;
+  width: 100px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.btn-fovori:hover {
+  background-color: white;
+  color: black;
+}
+.btn-read:hover {
+  background-color: white;
+  color: black;
+}

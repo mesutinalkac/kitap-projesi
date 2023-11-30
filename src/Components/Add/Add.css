@@ -1,0 +1,49 @@
+.add {
+  padding: 16px;
+  margin-top: 50px;
+}
+input {
+  background-color: black;
+  width: 600px;
+  padding: 7px 0;
+  border-radius: 7px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.add-wrapper {
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  width: 100px;
+  padding: 7px 0;
+  border-radius: 7px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.2s ease-in;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.books {
+  display: flex;
+  margin-top: 35px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.books p {
+  margin: 5px 0;
+}

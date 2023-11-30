@@ -1,0 +1,60 @@
+.rbc-container {
+  display: flex;
+  background-color: #f4f6f6;
+  margin: 10px;
+}
+
+.rbc-btn {
+  width: 140px;
+  outline: none;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.rbc-btn:hover {
+  background-color: #b03a2e;
+}
+.rbc-wrapper {
+  margin-top: 20px;
+}
+textarea {
+  margin-left: 100px;
+  margin-top: 60px;
+  outline: none;
+  font-size: 18px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  resize: none;
+}
+textarea::placeholder {
+  font-size: 18px;
+  color: gray;
+}
+.rbc-btns {
+  display: flex;
+}
+.rbc-ok-btn,
+.rbc-del-btn{
+  margin-left: 100px;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  transition: 0.2s ease-in-out;
+  font-size: 17px;
+}
+.rbc-ok-btn:hover {
+  background-color: #1e8449;
+}
+.rbc-del-btn{
+    background-color: #e74c3c;
+}
+.rbc-del-btn:hover{
+    background-color: #b03a2e;
+}

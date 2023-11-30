@@ -11,22 +11,26 @@ const Add = () => {
   
   useEffect(() => {
     // Sayfa yüklendiğinde otomatik olarak 10 kitap getir
-    fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${bookAuthor}&printType=books&maxResults=10&key=AIzaSyBlvYgSCqv-SyYX7e_A5k1gZZ6A1EAqvoM`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.items) {
-          setResults(data.items);
-        } else {
-          setResults([]);
-        }
-      });
+    if (import.meta.env.VITE_REACT_APP_TMDB_KEY) {
+      fetch(
+        `https://www.googleapis.com/books/v1/volumes?q=${bookAuthor}&printType=books&maxResults=10&key=${import.meta.env.VITE_REACT_APP_TMDB_KEY}`
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.items) {
+            setResults(data.items);
+          } else {
+            setResults([]);
+          }
+        });
+    } else {
+      console.error("API anahtarı bulunamadı. .env dosyasını kontrol edin.");
+    }
   }, []); // Boş bağımlılık dizisi, bu effect'in sadece bir kez çalışmasını sağlar (componentDidMount gibi)
 
   const onchange = (e) => {
     fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${query}&printType=books&key=AIzaSyBlvYgSCqv-SyYX7e_A5k1gZZ6A1EAqvoM`
+      `https://www.googleapis.com/books/v1/volumes?q=${query}&printType=books&key=${import.meta.env.VITE_REACT_APP_TMDB_KEY}`
     )
       .then((res) => res.json())
       .then((data) => {
